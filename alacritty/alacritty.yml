@@ -1,0 +1,32 @@
+# Copyright (c) 2017-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2017-present Sven Greb <code@svengreb.de>
+
+# Project:    Nord Alacritty
+# Version:    0.1.0
+# Repository: https://github.com/arcticicestudio/nord-alacritty
+# License:    MIT
+# References:
+#   https://github.com/alacritty/alacritty
+
+env:
+  TERM: xterm-256color
+
+import:
+  - ~/.config/alacritty/catppuccin/catppuccin-mocha.yml
+
+key_bindings:
+    - { key: Return,   mods: Control|Shift, action: SpawnNewInstance }
+window.opacity: 0.75
+window:
+  padding:
+    x: 20
+    y: 20
+font:
+  normal:
+    family: JetBrainsMono Nerd Font
+    style: Regular
+  size: 12
+live_config_reload: true
+dynamic_padding: true
+shell:
+   program: /bin/fish
