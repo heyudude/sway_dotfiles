@@ -10,6 +10,8 @@
         "temperature",
         "custom/separator",
         "idle_inhibitor",
+        "custom/separator",
+        "mpris"
     ],
     "modules-center": [
         "clock"
@@ -170,4 +172,18 @@
              "return-type": "json",
              "format-ethernet": "{icon} {ifname} ⇣{bandwidthDownBytes:>4} ⇡{bandwidthUpBytes:>4}",    // optional
 },
+    "mpris": {
+        "format": "{status_icon}{title} [{position}|{length}]",
+        "return-type": "json",
+        "status-icons": {
+            "playing": "⏵",
+             "paused": "⏸",
+        },
+        "ellipsis": "...",
+        "max-length": 85,
+        "title-len": 65,
+        "escape": true,
+        "tooltip": false,
+        "interval": 1
+    }
 }
