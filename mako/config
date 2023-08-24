@@ -1,8 +1,8 @@
 anchor=bottom-right
-background-color=#1E1D2F
-text-color=#D9E0EE
-border-color=#96CDFB
-progress-color=over #302D41
+background-color=#1e1e2e
+text-color=#cdd6f4
+border-color=#89b4fa
+progress-color=over #313244
 font=Iosevka Nerd Font 12
 width=350
 margin=0,20,20
@@ -18,4 +18,4 @@ format=<b>%s</b>\n%b
 
 
 [urgency=high]
-border-color=#F8BD96
+border-color=#Fab387

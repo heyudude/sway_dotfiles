@@ -6,6 +6,7 @@
     // Choose the order of the modules idle_inhibitor
     "modules-left": [
         "sway/workspaces",
+	"sway/mode",
         "custom/separator",
         "temperature",
         "custom/separator",
