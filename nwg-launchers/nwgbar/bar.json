@@ -2,7 +2,7 @@
   {
     "name": "Lock screen",
     "exec": "swaylock -f -c 000000",
-    "icon": "/usr/share/nwg-launchers/nwgbar/images/system-lock-screen.svg"
+    "icon": "/usr/share/nwg-launchers/nwgbar/images/Lockscreen.svg"
   },
   {
     "name": "Logout",
@@ -12,7 +12,7 @@
   {
     "name": "Reboot",
     "exec": "systemctl reboot",
-    "icon": "/usr/share/nwg-launchers/nwgbar/images/system-reboot.svg"
+    "icon": "/usr/share/nwg-launchers/nwgbar/images/Reboot.svg"
   },
   {
     "name": "Shutdown",

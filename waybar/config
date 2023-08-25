@@ -12,7 +12,7 @@
         "custom/separator",
         "idle_inhibitor",
         "custom/separator",
-        "mpris"
+        "mpris",
     ],
     "modules-center": [
         "clock"
@@ -60,6 +60,7 @@
         "format": "{}"
     },
     "idle_inhibitor": {
+	"start-activated": false, 
         "tooltip": false,
         "format": "{icon}",
         "format-icons": {
@@ -174,15 +175,18 @@
              "format-ethernet": "{icon} {ifname} ⇣{bandwidthDownBytes:>4} ⇡{bandwidthUpBytes:>4}",    // optional
 },
     "mpris": {
-        "format": "{status_icon}{title} [{position}|{length}]",
+        "format": "{status_icon} {dynamic}",
+	"dynamic-order": ["title", "artist", "position", "length" ],
+	"dynamic-importance-order": ["position", "length", "title", "artist"], 
         "return-type": "json",
         "status-icons": {
-            "playing": "⏵",
+            "playing": "🢖",
              "paused": "⏸",
         },
         "ellipsis": "...",
         "max-length": 85,
-        "title-len": 65,
+	"artist-len": 20,
+	"title-len" : 30,
         "escape": true,
         "tooltip": false,
         "interval": 1
