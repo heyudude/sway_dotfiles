@@ -29,4 +29,4 @@ font:
 live_config_reload: true
 dynamic_padding: true
 shell:
-   program: /usr/bin/zsh
+   program: /usr/bin/fish

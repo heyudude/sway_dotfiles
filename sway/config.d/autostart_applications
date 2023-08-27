@@ -58,5 +58,12 @@ exec_always nwg-drawer -r
 exec_always swayrd
 
 # Playerctl Daemon
-
 exec playerctld daemon
+
+# swww Daemon, an alternative wallpaper engine with animation support
+exec swww init
+
+
+# wayland specific ENV variables
+
+exec ~/.config/sway/scripts/wayland_config.sh

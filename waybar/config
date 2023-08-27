@@ -60,7 +60,7 @@
         "format": "{}"
     },
     "idle_inhibitor": {
-	"start-activated": false, 
+	"start-activated": true, 
         "tooltip": false,
         "format": "{icon}",
         "format-icons": {
@@ -183,9 +183,9 @@
             "playing": "🢖",
              "paused": "⏸",
         },
-        "ellipsis": "...",
+        "ellipsis": "..",
         "max-length": 85,
-	"artist-len": 20,
+	"artist-len": 14,
 	"title-len" : 30,
         "escape": true,
         "tooltip": false,

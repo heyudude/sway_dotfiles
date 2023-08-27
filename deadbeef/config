@@ -58,9 +58,9 @@ network.proxy.port 8080
 output_plugin pipewire
 playback.loop 0
 playback.order 2
-playback.volume.normalized 1.0000000
-playlist.cursor.0 0
-playlist.scroll.0 0
+playback.volume.normalized 0.3333339
+playlist.cursor.0 89
+playlist.scroll.0 1795
 playlist.scroll.cursorfollowplayback 1
 playlist.tab.00000 Music
 prefwin.geometry.h 684
@@ -70,8 +70,8 @@ prefwin.geometry.y 0
 replaygain.processing_flags 3
 resume.paused 0
 resume.playlist 0
-resume.position 0.0426667
-resume.track 156
+resume.position 15.999935
+resume.track 89
 sni.enabled 1
 sni.icon_minimize_action 1
 sni.icon_overlay 1
