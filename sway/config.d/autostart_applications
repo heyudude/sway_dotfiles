@@ -18,7 +18,7 @@ exec mkfifo $SWAYSOCK.wob
 exec tail -f $SWAYSOCK.wob | wob --border-color '#ffdcbb8c' --background-color '#cc3a3a3a' --bar-color '#ffdcbb8c'
 
 # Autotiling
-exec autotiling
+exec autotiling-rs
 
 # Wlsunset
 # exec ~/.config/sway/scripts/light.sh
@@ -61,7 +61,10 @@ exec_always swayrd
 exec playerctld daemon
 
 # swww Daemon, an alternative wallpaper engine with animation support
-exec swww init
+#exec swww init
+
+# Azote, A wallpaper handler for Window Managers
+exec_always $HOME/.azotebg
 
 
 # wayland specific ENV variables

@@ -110,6 +110,7 @@
         "tooltip": false
     },
     "battery": {
+	"interval": 15,
         "states": {
             // "good": 95,
             "warning": 30,
