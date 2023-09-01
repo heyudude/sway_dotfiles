@@ -1,3 +1,6 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+
 ## FIRST LINE/ROW: Info & Status
 # First param ─┌
 [username]

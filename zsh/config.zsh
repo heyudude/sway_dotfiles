@@ -14,7 +14,9 @@ promptinit
 # promptinit suse
 
 # Starship
-source <(/sbin/starship init zsh --print-full-init)
+# source <(/sbin/starship init zsh --print-full-init)
+
+# oh-my-zsh
 
 
 # Find The Command
@@ -23,7 +25,6 @@ source /usr/share/doc/find-the-command/ftc.zsh
 
 # Common Aliases
 alias ls='exa -al --color=always --group-directories-first --icons'
-
 alias cat='bat --style header --style snip --style changes --style header'
 
 
@@ -47,9 +48,9 @@ key[PageDown]="${terminfo[knp]}"
 key[Shift-Tab]="${terminfo[kcbt]}"
 
 # setup key accordingly
-[[ -n "${key[Home]}"      ]] && bindkey -- "${key[Home]}"       beginning-of-line
+[[ -n "${key[Home]}"	  ]] &&   bindkey -- "${key[Home]}"       beginning-of-line
 [[ -n "${key[End]}"       ]] && bindkey -- "${key[End]}"        end-of-line
-#[[ -n "${key[Insert]}"    ]] && bindkey -- "${key[Insert]}"     overwrite-mode
+[[ -n "${key[Insert]}"    ]] && bindkey -- "${key[Insert]}"     overwrite-mode
 [[ -n "${key[Backspace]}" ]] && bindkey -- "${key[Backspace]}"  backward-delete-char
 [[ -n "${key[Delete]}"    ]] && bindkey -- "${key[Delete]}"     delete-char
 [[ -n "${key[Up]}"        ]] && bindkey -- "${key[Up]}"         up-line-or-history
@@ -60,16 +61,6 @@ key[Shift-Tab]="${terminfo[kcbt]}"
 [[ -n "${key[PageDown]}"  ]] && bindkey -- "${key[PageDown]}"   end-of-buffer-or-history
 [[ -n "${key[Shift-Tab]}" ]] && bindkey -- "${key[Shift-Tab]}"  reverse-menu-complete
 
-
-# Activate Key Commands if terminal is in application mode
-# terminfo is only valid in application mode
-if (( ${+terminfo[smkx]} && ${+terminfo[rmks]} )); then
-	autoload -Uz add-zle-hook-widget
-	function zle_application_mode_start { echoti smkx }
-	function zle_application_mode_stop { echoti rmkx }
-	add-zle-hook-widget -Uz zle-line-init zle_application_mode_start
-	add-zle-hook-widget -Uz zle-line-finish zle_application_mode_stop
-fi
 
 
 
