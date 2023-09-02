@@ -1,3 +1,6 @@
 [submodule "alacritty/catppuccin"]
 	path = alacritty/catppuccin
 	url = https://github.com/catppuccin/alacritty
+[submodule "neovim"]
+	path = nvim
+	url = https://github.com/opticXC/init.lua.git

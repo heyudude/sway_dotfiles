@@ -12,5 +12,5 @@ case $selected in
   window)
     /usr/share/swayfx/scripts/grimshot --notify save window;;
   colorpicker)
-    /usr/bin/hyp#E0877Brpicker --no-fancy --autocopy --format=hex;;
+    /usr/bin/hyprpicker --no-fancy --autocopy --format=hex;;
 esac
