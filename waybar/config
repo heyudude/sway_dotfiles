@@ -83,7 +83,7 @@
     },
     "cpu": {
         "format": "<span foreground='#e0af68'></span> {usage}%",
-        "on-click": "kitty -e btop --utf-force",
+        "on-click": "alacritty -e btop --utf-force",
 	    "interval": 5
     },
     "memory": {
@@ -131,7 +131,7 @@
         "format-linked": "<span foreground='#61AF1F'>說</span> {essid} (No IP)",
         "format-disconnected": "<span foreground='#61AF1F'>說</span> Disconnected",
         "tooltip": false,
-        "on-click": "kitty -e nmtui"
+        "on-click": "alacritty -e nmtui"
     },
     "pulseaudio": {
         "scroll-step": 0.5,

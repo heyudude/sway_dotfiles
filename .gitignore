@@ -35,4 +35,11 @@ deadbeef/running
 
 
 gcm-diagnose.log
+modprobed.db
+modprobed-db.conf
+
+filezilla
+micro/
+systemd/
+
 

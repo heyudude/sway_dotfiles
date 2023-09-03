@@ -9,7 +9,6 @@ set $right l
 
 # Your preferred terminal emulators
 set $term alacritty
-set $term-float micro
 
 # Your preferred application launcher
 # Note: pass the final command to swaymsg so that the resulting window can be opened
@@ -19,8 +18,6 @@ set $menu wofi -c ~/.config/wofi/config -I
 set $launcher nwg-drawer -c 7 -is 70 -spacing 23
 
 set $powermenu nwgbar
-
-set $cheat $term-float -t cheatsheet -e micro ~/.config/sway/cheatsheet.md
 
 ### Idle configuration
 exec swayidle -w\
@@ -62,10 +59,7 @@ exec swayidle -w\
 
     # Switch to the last recently used window
     bindsym $mod+Tab exec swayr switch-to-urgent-or-lru-window
-
-    # Cheatsheet
-    bindsym $mod+Shift+i exec $cheat
-
+ 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
     # Despite the name, also works for non-floating windows.

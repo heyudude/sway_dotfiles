@@ -60,7 +60,7 @@ playback.loop 0
 playback.order 2
 playback.volume.normalized 0.3243555
 playlist.cursor.0 1
-playlist.scroll.0 -1
+playlist.scroll.0 0
 playlist.scroll.cursorfollowplayback 1
 playlist.tab.00000 Music
 prefwin.geometry.h 684
@@ -68,10 +68,14 @@ prefwin.geometry.w 741
 prefwin.geometry.x 0
 prefwin.geometry.y 0
 replaygain.processing_flags 3
-resume.paused 1
+resume.paused 0
 resume.playlist 0
-resume.position 20.394676
+resume.position 82.687393
 resume.track 1
+searchwin.geometry.h 150
+searchwin.geometry.w 450
+searchwin.geometry.x 0
+searchwin.geometry.y 0
 sni.enabled 1
 sni.icon_minimize_action 1
 sni.icon_overlay 1
