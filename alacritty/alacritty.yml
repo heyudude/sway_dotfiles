@@ -16,7 +16,7 @@ import:
 
 key_bindings:
     - { key: Return,   mods: Control|Shift, action: SpawnNewInstance }
-window.opacity: 0.75
+window.opacity: 0.85
 window:
   padding:
     x: 20

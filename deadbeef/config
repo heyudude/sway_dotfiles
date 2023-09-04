@@ -5,7 +5,7 @@ filechooser.lastdir file:///home/opticxc/Music
 gtkui.columns.playlist [{"title":"♫","id":"1","format":"%playstatus%","sort_format":"","size":"50","align":"0","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","sort_format":"","size":"688","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","sort_format":"","size":"278","align":"0","color_override":"0","color":"#ff000000"},{"title":"Artist / Album","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)[ - %album%]","sort_format":"","size":"636","align":"0","color_override":"0","color":"#ff000000"},{"title":"Track No.","id":"-1","format":"%tracknumber%","sort_format":"","size":"50","align":"1","color_override":"0","color":"#ff000000"}]
 gtkui.columns.search [{"title":"Artist / Album","id":"-1","format":"$if(%artist%,%artist%,Unknown Artist)[ - %album%]","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Track No","id":"-1","format":"%tracknumber%","sort_format":"","size":"50","align":"1","color_override":"0","color":"#ff000000"},{"title":"Title","id":"-1","format":"%title%","sort_format":"","size":"150","align":"0","color_override":"0","color":"#ff000000"},{"title":"Duration","id":"-1","format":"%length%","sort_format":"","size":"50","align":"0","color_override":"0","color":"#ff000000"}]
 gtkui.hide_tray_icon 1
-gtkui.layout.1.9.0 {"type":"vbox","legacy_params":" expand=\"0 1\" fill=\"1 1\" homogeneous=0","children":[{"type":"hbox","legacy_params":" expand=\"0 1 0\" fill=\"1 1 1\" homogeneous=0","children":[{"type":"playtb"},{"type":"seekbar"},{"type":"volumebar","settings":{"scale":"db"}}]},{"type":"tabbed_playlist","legacy_params":" hideheaders=0 width=1908"}]}
+gtkui.layout.1.9.0 {"type":"vbox","legacy_params":" expand=\"0 1\" fill=\"1 1\" homogeneous=0","children":[{"type":"hbox","legacy_params":" expand=\"0 1 0\" fill=\"1 1 1\" homogeneous=0","children":[{"type":"playtb"},{"type":"seekbar"},{"type":"volumebar","settings":{"scale":"db"}}]},{"type":"tabbed_playlist","legacy_params":" hideheaders=0 width=951"}]}
 gtkui.playlist.group_by_tf 
 gtkui.search.group_by_tf 
 gtkui.start_hidden 0
@@ -49,6 +49,10 @@ hotkey.key32 "Ctrl k" 0 0 toggle_stop_after_album
 hotkeys_created 1
 junk.enable_cp936_detection 1
 junk.enable_shift_jis_detection 1
+logwindow.geometry.h 200
+logwindow.geometry.w 400
+logwindow.geometry.x 0
+logwindow.geometry.y 0
 mainwin.geometry.h 300
 mainwin.geometry.maximized 1
 mainwin.geometry.w 500
@@ -58,9 +62,14 @@ network.proxy.port 8080
 output_plugin pipewire
 playback.loop 0
 playback.order 2
-playback.volume.normalized 0.3243555
-playlist.cursor.0 1
+playback.volume.normalized 0.3455449
+playlist.current 0
+playlist.cursor.0 239
+playlist.cursor.1 0
+playlist.cursor.2 0
 playlist.scroll.0 0
+playlist.scroll.1 0
+playlist.scroll.2 0
 playlist.scroll.cursorfollowplayback 1
 playlist.tab.00000 Music
 prefwin.geometry.h 684
@@ -70,8 +79,8 @@ prefwin.geometry.y 0
 replaygain.processing_flags 3
 resume.paused 0
 resume.playlist 0
-resume.position 82.687393
-resume.track 1
+resume.position 26.837451
+resume.track 239
 searchwin.geometry.h 150
 searchwin.geometry.w 450
 searchwin.geometry.x 0
