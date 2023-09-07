@@ -11,6 +11,8 @@ default_border pixel 1
 # Default Font
 font pango:Noto Sans CJK 10
 
+
+
 # Thin borders:
 smart_borders on
 

@@ -96,15 +96,15 @@
         // "thermal-zone": 2,
         // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
         "critical-threshold": 80,
-        // "format-critical": "{temperatureC}°C ",
+        "format-critical": " {temperatureC}°C",
         "format": " {temperatureC}°C",
         "tooltip": false,
-	    "interval" :5
+	    "interval" :2
     },
     "backlight": {
         // "device": "acpi_video1",
         "format": "<span foreground='#b48ead'>{icon}</span> {percent}%",
-    "format-icons": ["","","",""],
+        "format-icons": ["","","",""],
         "on-scroll-down": "brightnessctl -c backlight set 5%-",
         "on-scroll-up": "brightnessctl -c backlight set +5%",
         "tooltip": false
@@ -130,7 +130,9 @@
         "format-ethernet": "<span foreground='#61AF1F'></span> {ifname} ({ipaddr})",
         "format-linked": "<span foreground='#61AF1F'>說</span> {essid} (No IP)",
         "format-disconnected": "<span foreground='#61AF1F'>說</span> Disconnected",
-        "tooltip": false,
+        "tooltip-format": "↑ {bandwidthUpBits}\n↓ {bandwidthDownBits}",
+        "tooltip-disabled": "Disconnected",
+        "tooltip": true,
         "on-click": "alacritty -e nmtui"
     },
     "pulseaudio": {

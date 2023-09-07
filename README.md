@@ -46,8 +46,10 @@ grimshot
 hyprpicker
 
 
-nwg-drawer
-nwg-launchers
+~~nwg-drawer~~
+~~nwg-launchers~~
+
+changed to pure wofi
 
 nerd font of your choice, config defaults to JetBrainsMono and NotoSans CJK
 ```

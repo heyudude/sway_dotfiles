@@ -28,7 +28,7 @@ exec autotiling-rs
 exec nm-applet --indicator
 
 # Welcome
-exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/
+# exec dex -a -s /etc/xdg/autostart/:~/.config/autostart/
 
 # Clipman
 exec clipman restore
@@ -50,7 +50,7 @@ exec /usr/libexec/xdg-desktop-portal
 exec tracker daemon -s
 
 # Cheatsheet
-exec micro ~/.config/sway/cheatsheet
+# exec micro ~/.config/sway/cheatsheet
 
 # nwg-drawer
 exec_always nwg-drawer -r 
@@ -69,5 +69,4 @@ exec_always $HOME/.azotebg
 
 
 # wayland specific ENV variables
-
 exec ~/.config/sway/scripts/wayland_config.sh

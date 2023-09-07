@@ -8,4 +8,6 @@
   <property name="misc-single-click" type="bool" value="false"/>
   <property name="misc-text-beside-icons" type="bool" value="false"/>
   <property name="misc-transfer-verify-file" type="string" value="THUNAR_VERIFY_FILE_MODE_ALWAYS"/>
+  <property name="last-sort-column" type="string" value="THUNAR_COLUMN_DATE_MODIFIED"/>
+  <property name="last-sort-order" type="string" value="GTK_SORT_DESCENDING"/>
 </channel>

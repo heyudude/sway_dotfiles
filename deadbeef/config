@@ -64,10 +64,10 @@ playback.loop 0
 playback.order 2
 playback.volume.normalized 0.3455449
 playlist.current 0
-playlist.cursor.0 239
+playlist.cursor.0 112
 playlist.cursor.1 0
 playlist.cursor.2 0
-playlist.scroll.0 0
+playlist.scroll.0 -112
 playlist.scroll.1 0
 playlist.scroll.2 0
 playlist.scroll.cursorfollowplayback 1
@@ -79,8 +79,8 @@ prefwin.geometry.y 0
 replaygain.processing_flags 3
 resume.paused 0
 resume.playlist 0
-resume.position 26.837451
-resume.track 239
+resume.position 67.371170
+resume.track 112
 searchwin.geometry.h 150
 searchwin.geometry.w 450
 searchwin.geometry.x 0
