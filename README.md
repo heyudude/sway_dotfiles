@@ -74,5 +74,5 @@ All in one install command
 
 
 
-paru -S --noconfirm swayfx networkmanager kitty micro networkmanager network-manager-applet swayidle swaylock swaybg azote mako micro waybar wofi playerctl brightnessctl thunar-extended thunar-volman thunar-archive-plugin gvfs chromium grimshot-bin-sway hyprpicker-git nwg-drawer nwg-launchers pipewire pipewire-pulse pipewire-jack pavucontrol pamixer autotiling-rs nerd-fonts-jetbrains-mono-160 noto-fonts noto-fonts-cjk-vf catppuccin-gtk-theme-mocha catppuccin-cursors-mocha starship
+paru -S --noconfirm swayfx networkmanager kitty micro networkmanager network-manager-applet swayidle swaylock swaybg azote mako micro waybar wofi playerctl brightnessctl thunar-extended thunar-volman thunar-archive-plugin gvfs chromium grimshot-bin-sway hyprpicker-git pipewire pipewire-pulse pipewire-jack pavucontrol pamixer autotiling-rs nerd-fonts-jetbrains-mono-160 noto-fonts noto-fonts-cjk-vf catppuccin-gtk-theme-mocha catppuccin-cursors-mocha starship
 
