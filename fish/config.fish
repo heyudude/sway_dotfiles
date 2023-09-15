@@ -38,7 +38,9 @@ end
 ## Advanced command-not-found hook
 source /usr/share/doc/find-the-command/ftc.fish
 
+## Aliases
 alias neofetch /usr/bin/fastfetch
+alias ls "/usr/bin/eza --long --all --colour auto --git --group-directories-first"
 
 ## Functions
 # Functions needed for !! and !$ https://github.com/oh-my-fish/plugin-bang-bang
@@ -95,5 +97,5 @@ if status --is-interactive
 	#neofetch | lolcat
 end
 
-
+set -xg PATH $PATH $HOME/.cargo/bin $HOME/.local/bin 
 

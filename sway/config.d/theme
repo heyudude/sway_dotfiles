@@ -12,7 +12,6 @@ default_border pixel 1
 font pango:Noto Sans CJK 10
 
 
-
 # Thin borders:
 smart_borders on
 
@@ -32,12 +31,10 @@ client.urgent           #ebcb8b #ebcb8b #2e3440 #8fbcbb   #ebcb8b
 
 ## SwayFX specific options
 #
-
 blur enable
-blur_xray disable
-corner_radius 10
-
-
+blur_xray enable
+corner_radius 5
+shadows enable
 
 
 #

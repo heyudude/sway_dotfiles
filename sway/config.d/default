@@ -17,7 +17,7 @@ set $menu wofi -c ~/.config/wofi/config -I
 
 # set $launcher nwg-drawer -c 7 -is 70 -spacing 23
 
-set $powermenu ~/.config/sway/scripts/powermenu.sh
+set $powermenu ~/.config/wofi/scripts/powermenu.sway.sh
 
 ### Idle configuration
 exec swayidle -w\
@@ -217,7 +217,7 @@ bindsym XF86AudioMute exec pamixer --toggle-mute && ( pamixer --get-mute && echo
 #
 # Screenshots
 #
-    bindsym print exec /usr/share/swayfx/scripts/grimshot --notify save output
-    bindsym Shift+print exec ~/.config/sway/scripts/screenshot.sh
-    bindsym Alt+print exec /usr/share/swayfx/scripts/grimshot --notify copy area
+    bindsym print exec $HOME/.config/grimshot/auto-copy.sh  output
+    bindsym Shift+print exec ~/.config/wofi/scripts/screenshot.sh
+    bindsym Alt+print exec $HOME/.config/grimshot/auto-copy.sh area
 

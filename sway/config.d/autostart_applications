@@ -41,7 +41,7 @@ exec gnome-keyring-daemon --daemonize --start --components=gpg,pkcs11,secrets,ss
 exec libinput-gestures-setup start
 
 # Outputs
-exec kanshi
+# exec kanshi
 
 # Xdg DEsktop Portal
 exec /usr/libexec/xdg-desktop-portal
@@ -53,7 +53,7 @@ exec tracker daemon -s
 # exec micro ~/.config/sway/cheatsheet
 
 # nwg-drawer
-exec_always nwg-drawer -r 
+#exec_always nwg-drawer -r 
 
 # swayrd
 exec_always swayrd

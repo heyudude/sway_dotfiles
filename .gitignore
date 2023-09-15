@@ -33,7 +33,7 @@ font-manager/
 deadbeef/playlists/
 deadbeef/running
 
-
+mimeapps.list
 gcm-diagnose.log
 modprobed.db
 modprobed-db.conf
@@ -47,4 +47,13 @@ GIMP/
 krita/
 
 NuGet/
-
+YouTube Music/
+google-chrome/
+mps-youtube/
+opera/
+persepolis_download_manager/
+protonvpn/
+qalculate/
+tartube/
+vivaldi/
+whatsapp-for-linux/

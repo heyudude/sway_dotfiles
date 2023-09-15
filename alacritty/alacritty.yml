@@ -16,11 +16,11 @@ import:
 
 key_bindings:
     - { key: Return,   mods: Control|Shift, action: SpawnNewInstance }
-window.opacity: 0.85
 window:
+  opacity: 0.90
   padding:
-    x: 20
-    y: 20
+    x: 0
+    y: 2
 font:
   normal:
     family: JetBrainsMono Nerd Font
